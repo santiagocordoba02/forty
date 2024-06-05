@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre_documento">Nombre del Documento:</label>
+        <input type="text" id="nombre_documento" name="nombre_documento" required>
+        <br>
+        <label for="espacio_1">Espacio Vacío 1:</label>
+        <input type="text" id="espacio_1" name="espacio_1">
+        <br>
+        <label for="espacio_2">Espacio Vacío 2:</label>
+        <input type="text" id="espacio_2" name="espacio_2">
+        <br>
+        <label for="espacio_3">Espacio Vacío 3:</label>
+        <input type="text" id="espacio_3" name="espacio_3">
+        <br>
+        <label for="espacio_4">Espacio Vacío 4:</label>
+        <input type="text" id="espacio_4" name="espacio_4">
+        <br>
+        <label for="seleccion">Selección:</label>
+        <select id="seleccion" name="seleccion">
+            <option value="">Selecciona una opción</option>
+            <!-- Puedes añadir opciones adicionales aquí -->
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
